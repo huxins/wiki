@@ -2,4 +2,5 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/Windows/": "structure",
+  "/Deploy/": "structure",
 });
