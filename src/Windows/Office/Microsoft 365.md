@@ -70,3 +70,8 @@ cscript "ospp.vbs" /dstatus
 
 在许可证管理中，卸载所有许可证。之后，在许可证管理中，选择「Office Mondo 2016 - 批量许可证」进行安装。
 
+## PowerShell
+
+- [用一种全新的方式打开 Office Tool Plus](https://www.coolhub.top/archives/267)
+- [一行代码实现 Office/Visio/Project 的下载+安装+激活](https://www.11zhang.com/1260.html)
+
