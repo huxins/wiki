@@ -31,6 +31,10 @@ export default hopeTheme({
   prevLink: false,
   nextLink: false,
 
+  // 页面元数据
+  lastUpdated: false,
+  contributors: false,
+
   // 加密配置
   encrypt: {
     config: {

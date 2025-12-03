@@ -1,3 +1,3 @@
 import { navbar } from "vuepress-theme-hope";
 
-export default navbar(["/Windows/", "/Tools/"]);
+export default navbar(["/Windows/", "/Tools/", "/Play/"]);
