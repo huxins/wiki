@@ -44,3 +44,59 @@ cscript "ospp.vbs" /dstatus
 cscript "ospp.vbs" /unpkey:XXXXX
 ```
 
+## ODT
+
+- [Office Deployment Tool](https://docs.microsoft.com/deployoffice/overview-office-deployment-tool)
+- [Office Customization Tool](https://config.office.com/deploymentsettings)
+- [Office 部署工具的配置选项](https://docs.microsoft.com/zh-cn/deployoffice/office-deployment-tool-configuration-options)
+
+KMS 许可：
+
+```powershell
+cd "C:\Program Files\Microsoft Office\Office16"
+
+cscript ospp.vbs /sethst:s1.kms.cx
+cscript ospp.vbs /act
+```
+
+下载所需文件：
+
+```powershell
+setup.exe /download Configuration.xml
+setup.exe /configure Configuration.xml
+```
+
+配置示例：
+
+```xml
+<!--  文件末尾的三个配置依次为：
+      移除之前以 MSI 方式安装的 Office
+      静默安装
+      开启更新  -->
+
+<Configuration>
+
+  <Add OfficeClientEdition="64"
+	   Channel="PerpetualVL2019">
+	   
+    <Product ID="ProPlus2019Volume" PIDKEY="NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP">
+      <Language ID="zh-cn" />        
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+    </Product>
+
+  </Add>
+
+  <RemoveMSI All="True" /> 
+  <Display Level="Full" AcceptEULA="TRUE" /> 
+  <Updates Enabled="TRUE"
+           Channel="PerpetualVL2019" />
+
+</Configuration>
+```
+
