@@ -4,7 +4,16 @@ title: WPS
 
 - [2024 年最新 WPS 教育版、专业版下载地址合集](https://zhuanlan.zhihu.com/p/620711280)
 
-## 政府版
+## OEM 版
+
+```
+国家电网公司
+中国电气装备
+中国中车
+国家电力投资集团公司
+中国石油
+国家能源集团
+```
 
 2013 电网版
 
@@ -61,7 +70,41 @@ CRC32: E5D8498D
 ed2k://|file|2019博湖县政府专用版.exe|292618016|97067EE7671CFD57C3EF9660B0AB58DF|/
 ```
 
-## 关闭自动更新
+2023 中国电信版 | [知识铺子](https://www.qiuweizhi.cn/Software/Work/TextEditing/ChinaTelecom)
+
+```
+大小: 383215880
+文件版本: 12.8.2.18205
+MD5: A8A94C6CB1712B2D0A4CE8070CB4EB08
+SHA1: 236194F58DF1139CF494F36A16E0E75174F300A5
+CRC32: C6D41319
+ed2k://|file|WPS_电信定制版_12.8.2.18205_Setup.exe|383215880|77F552DE2C5A4ECEA0561F36A402C782|/
+```
+
+## 序列号
+
+- [专业版](https://ep.wps.cn/download)
+
+```
+694BF-YUDBG-EAR69-BPRGB-ATQXH
+TJ3GN-9NTGQ-GLF7C-YEN8X-TJWML
+```
+
+## 干净化
+
+- 禁用右下角托盘图标：重命名「wpscloudsvrimp.dll」
+
+### 关闭自动更新
 
 开始菜单里，WPS 目录中，通过「配置工具」关闭自动更新。
+
+### 开启云服务
+
+如果默认安装是屏蔽云服务的，需要恢复云服务和账号登录同步，删除「C:\Program Files (x86)\Kingsoft\WPS Office\12.8.2.18205\office6\cfgs」下的「oem.ini」文件即可。
+
+### OEM 标识
+
+去除 WPS 界面右上角的「**专属服务通道**」，修改「C:\Program Files (x86)\Kingsoft\WPS Office\12.8.2.18205\office6\cfgs」下的「oeminfo」文件夹名称即可。
+
+去除**单位标识**，删除「C:\Program Files (x86)\Kingsoft\WPS Office\12.8.2.18205\oem」即可。
 
