@@ -38,9 +38,21 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+      "/Play/音频/NSFW.html": {
+        hint: "Password",
+        password: "666",
+      },
+      "/Play/小说/NSFW.html": {
+        hint: "Password",
+        password: "666",
+      },
+      "/Play/动画/NSFW.html": {
+        hint: "Password",
+        password: "666",
+      },
+      "/Play/漫画/NSFW.html": {
+        hint: "Password",
+        password: "666",
       },
     },
   },
