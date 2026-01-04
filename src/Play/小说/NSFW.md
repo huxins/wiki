@@ -17,3 +17,9 @@ title: NSFW
 - [禁忌书屋](https://www.cool18.com/bbs4/index.php)
 - [第一版主](https://www.banzhu1111111.com/)
 
+## 阅读
+
+| 作品     | 作者   |
+| -------- | ------ |
+| 车模老妈 | 闻啼鸟 |
+

@@ -50,4 +50,12 @@ title: Word
 
 - Suit
   - This blue suit looks very nice.
+  - It suits me.
+- School
+  - This is my school.
+- Teacher
+  - This is my teacher.
+- Son
+  - This is my son.
+  - This is my daughter.
 
