@@ -1,0 +1,5 @@
+---
+title: Life
+index: false
+---
+

@@ -6,4 +6,5 @@ export default navbar([
   "/Tools/",
   "/Language/",
   "/Play/",
+  "/Life/",
 ]);

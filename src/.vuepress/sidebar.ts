@@ -6,4 +6,5 @@ export default sidebar({
   "/Tools/": "structure",
   "/Language/": "structure",
   "/Play/": "structure",
+  "/Life/": "structure",
 });
